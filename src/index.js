@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Layout } from './components/05-useLayoutEffect/Layout';
+import MemoHook from './components/06-memos/MemoHook';
+// import Memorize from './components/06-memos/Memorize';
+// import { Layout } from './components/05-useLayoutEffect/Layout';
 // import { RealExempleRef } from './components/04-useRef/RealExempleRef';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
@@ -13,7 +15,7 @@ import { Layout } from './components/05-useLayoutEffect/Layout';
 import './index.css';
 
 ReactDOM.render(
-  <Layout />,
+  <MemoHook />,
   document.getElementById('root')
 );
 
